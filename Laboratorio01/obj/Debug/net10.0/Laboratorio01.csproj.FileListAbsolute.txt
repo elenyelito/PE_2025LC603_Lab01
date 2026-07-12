@@ -12,3 +12,4 @@
 /home/elenyell/Escritorio/Universidad/Ciclo - 4/Programación Estructurada/Semana 1/Lab01/Laboratorio01/obj/Debug/net10.0/Laboratorio01.pdb
 /home/elenyell/Escritorio/Universidad/Ciclo - 4/Programación Estructurada/Semana 1/Lab01/Laboratorio01/obj/Debug/net10.0/Laboratorio01.genruntimeconfig.cache
 /home/elenyell/Escritorio/Universidad/Ciclo - 4/Programación Estructurada/Semana 1/Lab01/Laboratorio01/obj/Debug/net10.0/ref/Laboratorio01.dll
+/home/elenyell/Escritorio/Universidad/Ciclo - 4/Programación Estructurada/Semana 1/Lab01/Laboratorio01/obj/Debug/net10.0/Laboratorio01.sourcelink.json

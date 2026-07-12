@@ -34,13 +34,46 @@ class Program
         Console.Write("Digte su correo electrónico: ");
         correo = Console.ReadLine()!;
 
+        Console.Write("Digite su número de teléfono: ");
+        telefono = Console.ReadLine()!;
+
         Console.Write("Digite su promedio: ");
         promedio = double.Parse(Console.ReadLine()!);
 
         Console.Write("Digite el número de materias inscritas: ");
         materias = int.Parse(Console.ReadLine()!);
         
+        int edadFutura = edad + 5;
+        bool puedeInscribir = materias < max_materias;
+
         Console.WriteLine();
-        Console.WriteLine("Captura de datos realizada correctamente...");
+        Console.WriteLine("========================================");
+        Console.WriteLine();
+
+        Console.WriteLine($"Bienvenido, {nombre}");
+        Console.WriteLine();
+
+        Console.WriteLine($"Nombre: {nombre}");
+        Console.WriteLine($"Edad: {edad} años");
+        Console.WriteLine($"Edad dentro de 5 años: {edadFutura} años");
+        Console.WriteLine();
+
+        Console.WriteLine($"Carrera: {carrera}");
+        Console.WriteLine($"Carné: {carne}");
+        Console.WriteLine($"Correo: {correo}");
+        Console.WriteLine($"Teléfono: {telefono}");
+        Console.WriteLine();
+
+        Console.WriteLine($"Promedio: {promedio:F2}");
+        Console.WriteLine($"Materias inscritas: {materias}");
+        Console.WriteLine($"Máximo permitido: {max_materias}");
+        Console.WriteLine();
+
+        Console.WriteLine($"Puede inscribir más materias: {(puedeInscribir ? "Sí" : "No")}");
+
+        Console.WriteLine();
+        Console.WriteLine("==============================================");
+        Console.WriteLine("Gracias por utilizar el sistemas.");
+        Console.WriteLine("==============================================");
     }
 }
